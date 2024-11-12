@@ -3,10 +3,13 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import {sum} from "./03/03";
+
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
+var a = sum
 root.render(
   <React.StrictMode>
     <App />
